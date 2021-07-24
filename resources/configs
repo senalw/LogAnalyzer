@@ -1,0 +1,18 @@
+LOG_FILE_LOC=D:\SSM\test
+DB_NAME=stats.db
+GSD_FILE_REGEX=GSD.*
+SSM_STAT_FILE_REGEX=SSM_STAT.*
+SSM_INST_RES_FILE_REGEX=SSM_INST_RES.*
+# To represent in Megabytes use M, Kilobytes use K, Gigabytes use G
+COMMON_MEMORY_REPRESENTATION=M
+QUERY_SERVICE_PORT=3003
+#%Y%m%d-%H:%M:%S:%f
+TIME_SERIES_FORMAT=%Y-%m-%dT%H:%M:%S.%f
+#==========<hh:mm:ss - if need to add -5:30 to time rage config = -05:-30:00>=========
+QUERY_TIME_DELTA_OFFSET=00:00:00
+STAT_INSERT_TIME_DELTA_OFFSET=00:00:00
+#==========<hh:mm:ss - if need to add -5:30 to time rage config = -05:-30:00>=========
+CACHE_ENABLED=True
+CACHE_TIMEOUT=1000
+GRAPH_SUMMARIZATION_ENABLED=False
+DB_CONNECTION_TIMEOUT=60
