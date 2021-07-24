@@ -1,4 +1,4 @@
-##LogAnalyzer
+<h2>LogAnalyzer</h2>
 <p>LogAnalyzer is a tool of collecting data points for a given statistic type from a unix OS and export them to csv for sqlite.</p>
 
 e.g.
@@ -18,10 +18,11 @@ StatAnalyzer.py -RF <command file path> : Run commands from file
 ```
 <p>After exporting data points, you can plot them in Graphs from any desired graphing application. (e.g. Grafana)</p>
 
-##Python
+<h2>Python</h2>
 3.0 or upper
 
-##Support Libraries
+<h2>Support Libraries</h2>
+
 ```
 pip install Pandas
 pip install sqlparse
@@ -29,9 +30,10 @@ pip install flask
 pip install flask_cors
 pip install enum
 ```
-##Contributing
+
+<h2>Contributing</h2>
 Pull requests are welcome.
 
 
-##Author
+<h2>Author</h2>
 Senal Weerasinghe (senaldulanjala@gmail.com)
