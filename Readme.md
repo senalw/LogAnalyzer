@@ -1,5 +1,5 @@
 <h2>LogAnalyzer</h2>
-<p>LogAnalyzer is a tool of collecting data points for a given statistic type from a unix OS and export them to csv for sqlite.</p>
+<p>LogAnalyzer is a tool of collecting data points for a given statistic type from a unix OS and export them to csv or sqlite DB. These data points can be visualize throug a data visualization tool like Grafana.</p>
 
 e.g.
 ```
